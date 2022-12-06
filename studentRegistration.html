@@ -1,122 +1,221 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Registration Form </title>
+    <title>Registration Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;1,
+900&family=Sacramento&family=Satisfy&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        input[type="text"]{
-color: red;
-border-radius: 10px;
+      /* input[type="text"] {
+        color: red;
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: brown;
+      }
+      input[type="submit"]:hover {
+        color: red;
+      }
+      input[type="clear"]:hover {
+        color: green;
+      } */
+      input[type="text"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="submit"],
+      input[type="Reset"] {
+        color: red;
+        background-color: #00c9ff;
+        border-radius: 30px;
+        font-family: cursive;
+        margin-left: 150px;
+        font-weight: 50px;
+        font-family: cursive;
+      }
+      body {
+        background-image: url(empreg1.jpg);
+        background-repeat: no-repeat;
+        background-position: 200px;
+        background-size: contain;
+        /* background-color: aquamarine; */
+        background-color: #c471ed;
+      }
+      h3 {
+        padding-left: 500px;
+        font-family: cursive;
+        color: aqua;
+      }
+      form {
+        padding-left: 280px;
+        /* color: #00f260; */
+        color: yellow;
+        font-family: "Sofia", cursive;
+      }
+      .abc {
+        padding-left: 50px;
+      }
+      input[type="radio"] {
+        margin-left: 20px;
+        background-color: #00f260;
+      }
+      input[type="email"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="password"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="date"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="week"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="time"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="file"] {
+        background-color: #00f260;
+        border-radius: 10px 10px;
+      }
+      input[type="option"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
 
-        }
-        button:hover{
-            background-color: brown;
-        }
-        input[type="submit"]:hover{
-            color: red;
-        }
-        input[type="clear"]:hover{
-            color: green;
-        }
+      input[type="age"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      input[type="number"] {
+        border-radius: 8px;
+        background-color: #00f260;
+      }
+      textarea{
+        border-radius: 30px;
+        background-color: #00f260;
+      }
+      select{
+        background-color: #00f260;
+        border-radius: 8px;
+      }
     </style>
   </head>
 
   <body>
-    <h3> Student Registration Form </h3>
-        <form>
-            
-            <table>
-                <tbody>
-                    <tr>
-                        <td><label>FName</label></td>
-                        <td><input type="text" placeholder="Only capital letters" required autofocus maxlength="5"></td>
-                    </tr>
-                    
-                    <tr>
-                        <td><label>Lname</label></td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Email Id</label></td>
-                        <td><input type="email"></td>
+    <h3>Student Registration Form</h3>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><label>FName</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="Only capital letters"
+                required
+                autofocus
+                maxlength="5"
+              />
+            </td>
+          </tr>
 
-                    </tr>
-                    <tr>
-                        <td><label>Password</label></td>
-                        <td><input type="password"></td>
-                    </tr>
-                    <tr>
-                        <td><label>DOB</label></td>
-                        <td><input type="date"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Available in week</label></td>
-                        <td><input type="week"></td>
-                    </tr>
-                    <tr>
-                        <td>Available in time</td>
-                        <td><input type="time"></td>
-                    </tr>
-                    <tr>
-                        <td><label>Profile photo</label></td>
-                        <td><input type="file" multiple></td>
-                    </tr>
-                    <tr>
-                        <td><label>Graduation</label></td>
-                        <td>
-                            <select>
-                                <option>BE</option>
-                                <option>BSC</option>
-                                <option>BTECH</option>
-                                <option>BBA</option>
-                            </select>
+          <tr>
+            <td><label>Lname</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Email Id</label></td>
+            <td><input type="email" /></td>
+          </tr>
+          <tr>
+            <td><label>Password</label></td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><label>DOB</label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label>Available in week</label></td>
+            <td><input type="week" /></td>
+          </tr>
+          <tr>
+            <td>Available in time</td>
+            <td><input type="time" /></td>
+          </tr>
+          <tr>
+            <td><label>Profile photo</label></td>
+            <td><input type="file" multiple /></td>
+          </tr>
+          <tr>
+            <td><label>Graduation</label></td>
+            <td>
+              <select>
+                <option>BE</option>
+                <option>BSC</option>
+                <option>BTECH</option>
+                <option>BBA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <lable>Gender</lable>
+              <input type="radio" name="Gender" /><label>Male</label>
+              <input type="radio" name="Gender" /><label>Female</label>
+              <input type="radio" name="Gender" /><label>Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label> Select Training </label></td>
+            <td>
+              <input type="checkbox" /> <label> Angular </label>
+              <input type="checkbox" /> <label> React </label>
+              <input type="checkbox" /> <label> Java </label>
+              <input type="checkbox" /> <label> Data Science </label>
+              <input type="checkbox" />
+              <label> Manual + Automation Testing </label>
+            </td>
+          </tr>
+          <tr>
+            <td><label> Present Address </label></td>
+            <td><textarea rows="7" cols="40"> </textarea></td>
+          </tr>
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><lable>Gender</lable>
-                        <input type="radio" name="Gender"><label>Male</label>
-                        <input type="radio" name="Gender"><label>Female</label>
-                        <input type="radio" name="Gender"><label>Other</label></td>
-                    </tr>
-                    <tr> 
-                        <td> <label> Select Training </label> </td>
-                        <td> 
-                           <input type="checkbox"> <label> Angular </label>
-                           <input type="checkbox"> <label> React </label>
-                           <input type="checkbox"> <label> Java </label>
-                           <input type="checkbox"> <label> Data Science </label>
-                           <input type="checkbox"> <label> Manual + Automation Testing </label>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td> <label> Present Address </label> </td>
-                        <td> <textarea rows="7" cols="40">  </textarea> </td>
-            
-                    <tr>
-                        <td> <label> Mobile Number</label> </td>
-                        <td> <input type="number" placeholder="Max 10 digits">  </td>
-                      </tr>
-            
-                    <tr>
-                        <td><label>Age</label></td>
-                        <td><input type="number" placeholder="Only number" ></td>
-                    </tr>
-                    
-                    <tr>
-                        <td> State</td>
-                        <td><input type="text" value="MH" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label>Country</label></td>
-                        <td><input type="text" value="India" disabled></td>
-                    </tr>
-                    <tr>
-                        <td><input type="Submit"></td>
-                        <td><input type="Clear"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </form>
-        
+          <tr>
+            <td><label> Mobile Number</label></td>
+            <td><input type="number" placeholder="Max 10 digits" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Age</label></td>
+            <td><input type="number" placeholder="Only number" /></td>
+          </tr>
+
+          <tr>
+            <td>State</td>
+            <td><input type="text" value="MH" readonly /></td>
+          </tr>
+          <tr>
+            <td><label>Country</label></td>
+            <td><input type="text" value="India" disabled /></td>
+          </tr>
+          <tr>
+            <td>
+              <b><input type="Submit" /></b>
+            </td>
+            <td><input type="Reset" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
   </body>
 </html>
