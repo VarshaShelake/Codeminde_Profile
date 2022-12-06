@@ -4,6 +4,9 @@
 <head>
     <title> Internal CSS </title>
     <style>
+        h1:hover{
+            color: red;
+        }
         #Objectives,h2{
             color: blue;
             background-color: chartreuse;
@@ -14,16 +17,35 @@
             font-size: larger;
             text-transform: capitalize;
             font-weight: 300;
+            
+        }
+        body{
+            background-image: url(1080p-ganpati-Images.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .obj{
             color: aqua;
         }
+        #roles{
+            margin-bottom: 50px;
+        }
+        #para{
+            margin-top: 100px;
+            border-radius: 20px;
+            border-radius: 10px 5px;
+        }
+        h2::after{
+            content: hello;
+        }
+
 
     </style>
 </head>
 
 <body>
 <!-- this is important (comment use ctrl+/) -->
+<h1>Hello</h1>
     <h2 class="Objectives"> Career Objectives </h2>
     <hr>
     <p class="obj">
@@ -40,5 +62,11 @@
         &nbsp; &nbsp; &nbsp; &nbsp;  Knowledge of NodeJS <br>
         &nbsp; &nbsp; &nbsp; &nbsp; Ability to work with people at all levels in the program
     </p>
+    <h2 id="roles"> Roles and Responsibilities </h2>
+
+    <p id="para">
+         This is para 
+    </p>
+
 </body>
 </html>
